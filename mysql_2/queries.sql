@@ -1,4 +1,4 @@
--- /* Question: 3. get number problems solved in codekata by combining the users*/
+/* get number problems solved in codekata by combining the users*/
 
 Use guvi_task;
 SELECT users.userid, users.username,users.email, codekata.number_problems 
@@ -7,7 +7,7 @@ INNER JOIN codekata ON users.userid = codekata.userid;
 
 --------------------
 
--- /* Question:4. display the no of company drives attended by a user*/
+-- /*  display the no of company drives attended by a user*/
 
 -- /*for specific user*/
 
@@ -25,7 +25,7 @@ GROUP BY userid;
 
 ----------------------------------------
 
--- /* Question:  5. combine and display students_activated_courses and courses for a specific user groping them based on the course*/
+-- /*  combine and display students_activated_courses and courses for a specific user groping them based on the course*/
 
 use guvi_task;
 
@@ -38,7 +38,7 @@ GROUP BY courses.courseid;
 
 -------------------------------------------
 
--- /* Question: 6. list all the mentors*/
+-- /*  list all the mentors*/
 
 USE  guvi_task;
 -- /*SELECT * from mentors;*/
@@ -46,7 +46,7 @@ SELECT mentorname FROM mentors;
 
 -------------------------------
 
-/* Question: 7. list the number of students that are assigned for a mentor*/
+/* list the number of students that are assigned for a mentor*/
 
 -- /*for specific mentor*/
 USE guvi_task;
