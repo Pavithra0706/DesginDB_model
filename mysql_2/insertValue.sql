@@ -1,4 +1,4 @@
-/*2. insert at least 5 rows of values in each table*/
+/*2. insert rows of values in each table*/
 
 
 use guvi_task;
