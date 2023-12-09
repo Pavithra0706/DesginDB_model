@@ -1,4 +1,4 @@
--- 1. Create tables for the above list given
+-- 1. Create tables :
 
 use guvi_task;
 -- /*courses*/
